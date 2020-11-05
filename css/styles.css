@@ -1,0 +1,55 @@
+
+h1,h3,h6{
+	color: #9c640c;
+}
+
+.card{
+	border: 10px solid #33FF94;
+	margin: 10px;
+	padding: 1%;
+	width: 350px;
+	height: 400px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.parent-card{
+	padding-top: 5%;
+	padding-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.img1{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 5%;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+.btn-success{
+	padding-top: 10%;
+	width: 150px;
+}
+
+
+@media screen and (max-width: 425px){
+	.card{
+		background-color: red;
+		flex-direction: row-reverse;
+	}
+}
+
+@media screen and (min-width: 426px) and (max-width: 758px){
+	.card{
+		background-color: yellow;
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px){
+	.card{
+		background-color: green;
+	}
+}

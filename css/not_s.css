@@ -1,0 +1,39 @@
+.parent{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+
+img{
+	max-width: 140px;
+}
+.Half1{
+	width:33%;
+	margin:1%;
+	align-content: center;
+}
+.Half2{
+	width:65%;
+	margin:1%;
+}
+.list-item{
+	padding: 3px;
+}
+.jumbotron{
+	padding-top: 10px;
+}
+.Skills2{
+	margin-top: 10px;
+	padding: 1%;
+}
+.Skills1{
+	margin-top: 10px;
+	padding: 1%;
+}
+
+.card2{
+	align-items: center;
+	margin-left: 70px;
+	margin-top: 30px;
+	box-shadow: 10px 10px 5px grey;
+}
